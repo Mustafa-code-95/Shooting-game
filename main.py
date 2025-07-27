@@ -18,7 +18,7 @@ import threading
 
 app = Ursina()
 
-Sky(texture='feld.png', transparent=False)
+Sky(color=color.black, transparent=False)
 
 background = Entity(
     model='quad',
